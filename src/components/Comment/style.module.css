@@ -1,0 +1,19 @@
+.email {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.comment {
+    font-size: .8rem;
+}
+
+.creationDate {
+    font-size: .8rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    margin-bottom: .5rem;
+}
