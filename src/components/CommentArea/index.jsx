@@ -1,4 +1,9 @@
 import Comment from "../Comment"
+import PropType from 'prop-types'
+
+CommentArea.propTypes = {
+    commentsArray: PropType.array
+}
 
 export default function CommentArea({ commentsArray }) {
     return (
